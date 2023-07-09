@@ -26,7 +26,7 @@
     <table>
         <thead>
             <tr>
-                <td>4</td>
+                <td colspan="5px"></td>
             </tr>
         </thead>
         <tbody>
@@ -50,7 +50,7 @@
     <table>
         <thead>
             <tr>
-                <td></td>
+                <td rowspan="5"></td>
                 <td></td>
                 <td></td>
             </tr>
@@ -70,18 +70,12 @@
 <table>
         <thead>
             <tr>
-                <td></td>
+                <td colspan="5px"></td>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
+                <td rowspan="10"></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -90,10 +84,16 @@
             <tr>
                 <td></td>
                 <td></td>
+                <td rowspan="2"></td>
                 <td></td>
             </tr>
             <tr>
-            <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+            <td colspan="3"></td>
             <td></td>
             </tr>
         </tbody>
