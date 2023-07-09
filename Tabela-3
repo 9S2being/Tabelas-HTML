@@ -9,7 +9,6 @@
         table {
             border: 2px solid black;
         }
-
         td {
             border: 2px solid black;
             border-collapse: collapse;
@@ -17,12 +16,12 @@
             column-span: all;
         }
     </style>
-
 </head>
 <body>
     <main>
 
      <!----Tabela 1-->
+
     <table>
         <thead>
             <tr>
@@ -47,6 +46,7 @@
     <br>
     
     <!--tabela 2--->
+
     <table>
         <thead>
             <tr>
@@ -67,6 +67,7 @@
     <br>
 
 <!---Tabela 3---->
+
 <table>
         <thead>
             <tr>
