@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas-1</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+
+            width: 100px;
+            height: 25px;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+    
+<body>
+    <main>
+        <!---Tabela 1-->
+        <table align="start">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <!------->
+            <tbody align="center">
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+            <!---------->
+            <tfoot align="end">
+                 <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <!---Tablea 2-->
+        <table>
+            <thead align="start">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </thead>
+            <!------->
+            <tbody align="center">
+                 <tr>
+                    <td colspan="5px">4</td>
+                </tr>
+            </tbody>
+            <!----->
+            <tfoot align="start">
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <!---Tabela 3-->
+        <table>
+           <tbody align="start">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td align="center" rowspan="3">3</td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+           </tbody>
+        </table>
+        
+    </main>
+</body>
+</html>
